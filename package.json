@@ -1,0 +1,20 @@
+{
+  "name": "assingment_1_nahomi-heredia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "lite-server --baseDir=\"public\"",
+  "watch": "sass --watch src/scss:public/assets/css",
+  "start": "concurrently \"npm run watch\" \"npm run dev\"",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "lite-server": "^2.6.1",
+    "sass": "^1.89.0"
+  }
+}
